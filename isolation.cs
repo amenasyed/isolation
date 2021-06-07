@@ -419,12 +419,7 @@ namespace Bme121
             int startColA = Array.IndexOf( letters, startA.Substring(1,1)); // finds individual index of Player A's column
             int startRowB = Array.IndexOf( letters, startB.Substring(0,1)); // finds individual index of Player B's row
             int startColB = Array.IndexOf( letters, startB.Substring(1,1)); // finds individual index of Player B's column
-            
-            WriteLine( startRowA);
-            WriteLine( startColA);
-            WriteLine( startRowB);
-            WriteLine( startColB);
-
+       
 
             if( startRowA < 0 || startRowB < 0 || startColA < 0 || startColB < 0 ) // coordinates cannot be < 0
             {
